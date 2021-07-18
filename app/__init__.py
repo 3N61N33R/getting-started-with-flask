@@ -7,3 +7,7 @@ from flask import Flask
 # config file with app.config.from_object('config')
 
 app = Flask(__name__, instance_relative_config=True)
+
+# load the views
+
+from app import views
